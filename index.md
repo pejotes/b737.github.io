@@ -6,7 +6,17 @@
 
 
 # Header 1
-## Header 2
+## Software
+- Prepar 3D v4
+- Prosim b737
+
+## PC Hardware
+
+## Cockpit hardware
+- Pokeys control cards
+- MCP from OpenCockpits
+- EFIS from OpenCockpits
+
 ### Header 3
 
 - Bulleted
