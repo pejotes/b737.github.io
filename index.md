@@ -1,8 +1,6 @@
 ## Welcome to b737 project
 
-
-
-### Markdown
+In a next few years I would like to build real as possible (on my budget) replica of Boeing 737 cockpit. I want to use some plug and play components, but include also my own made parts and devices.
 
 
 # Header 1
@@ -17,15 +15,6 @@
 - MCP from OpenCockpits
 - EFIS from OpenCockpits
 
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
