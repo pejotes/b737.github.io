@@ -176,6 +176,25 @@ This powerful configuration delivers smooth frame rates and stunning visuals in 
   - Low-latency communication with ProSim737
   - Expandable architecture for future additions
 
+### Immersion & Effects Systems
+
+**Audio Simulation**
+- **SimSound**
+  - Realistic aircraft sound reproduction
+  - Engine sounds, hydraulics, pneumatics, and environmental audio
+  - Synchronized with aircraft systems and flight phases
+  - Creates authentic cockpit audio environment
+  - Complements MSFS 2020 and ProSim737 audio systems
+
+**Tactile Feedback**
+- **ButtKicker Transducers**
+  - Physical vibration feedback system
+  - Simulates engine vibrations, turbulence, and ground effects
+  - Mounted to cockpit seats and floor structure
+  - Provides realistic physical sensations during all flight phases
+  - Enhances immersion through tactile cues (touchdown, engine spool-up, etc.)
+  - Creates a true 4D flight experience beyond visual and audio
+
 ## Build Updates & Timeline
 
 **September 2017** - Project Initiated
