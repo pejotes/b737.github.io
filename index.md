@@ -1,13 +1,20 @@
-## Welcome to b737 project
+## Welcome to b737 Project
 
-In a next few years I would like to build real as possible (on my budget) replica of Boeing 737 cockpit. I want to use some plug and play components, but include also my own made parts and devices.
+### Building an Authentic Boeing 737 Flight Simulator
+
+This project documents my journey building a high-fidelity Boeing 737 cockpit simulator. The goal is to create the most realistic 737 experience possible by combining professional-grade software, authentic OEM hardware, quality replica components, and custom-built systems.
+
+This is not just a gaming setup—it's a serious flight training environment that replicates the look, feel, and functionality of a real Boeing 737 flight deck. Every component is carefully selected or crafted to deliver maximum realism and immersion, from the authentic cockpit seats to the fully motorized controls.
+
+The build philosophy balances authenticity with practicality: using OEM parts where possible, high-quality replicas from established manufacturers, and custom solutions where needed. The result is a professional-grade simulator suitable for serious training and pure aviation enthusiasm.
 
 
 ## Software
 
-### Flight Simulators
-- Prepar 3D v5.2
-- MSFS 2020
+### Flight Simulator Platform
+**Microsoft Flight Simulator 2020**
+
+The simulator runs on MSFS 2020, providing cutting-edge visuals, realistic weather systems, and a living world environment. Combined with ProSim737's professional avionics suite, this creates an unparalleled balance of visual realism and systems depth.
 
 ### ProSim 737 - Professional Boeing 737 Simulation Suite
 
@@ -78,7 +85,7 @@ ProSim737 is a professional-grade avionics and systems simulation suite designed
 - Support for CPFlight V2 hardware and new ACP/SIDE panels
 - Phidgets driver with VINT card support
 - Broad compatibility with major hardware providers (Flightdeck Solutions, CPFlight, OpenCockpits, Simworld, Sismo)
-- Compatible with Prepar3D v5 and Microsoft Flight Simulator 2020
+- Full integration with Microsoft Flight Simulator 2020
 
 #### Version History Highlights
 - **v3.35 (Nov 2025)**: LTS release with engine model redesign and 150+ circuit breakers
@@ -97,25 +104,84 @@ ProSim737 is a professional-grade avionics and systems simulation suite designed
 
 ## PC Hardware
 
-3 x Intel PC
+### Multi-Computer Setup
+The simulator runs on a distributed computing architecture with 3 dedicated PCs handling different aspects of the simulation for optimal performance.
 
-### Main PC
-- Intel 7700k CPU
-- 32GB ram
-- 256GB OS nvme
-- 512gb ssd data drive
+### Main PC - Flight Simulation & Graphics
+- **CPU:** AMD Ryzen 5 5300X
+- **GPU:** AMD Radeon RX 6900 XT
+- **RAM:** 32GB
+- **Storage:**
+  - 256GB NVMe SSD (Operating System)
+  - 512GB SSD (Data Drive)
 
-## Cockpit hardware
-- Pokeys control cards
-- MCP PRO from CPFlight
-- EFIS PRO from CPFlight
-- Throttle Quadrant - motorised, v3 silver from Cockpit For You 
-- MCDU - OpenCockpits
-- Pedestal radio/nav/audio stack based on laser engraved panel and arduino mega connected by mobiflight to prosim.
-- 
-## Build updates
+This powerful configuration delivers smooth frame rates and stunning visuals in MSFS 2020 while handling ProSim737's complex systems simulation.
 
-- 09.2017 - Work started. 
+## Cockpit Hardware
+
+### Authentic Components
+
+**Cockpit Seats**
+- **OEM Original Boeing 737 American Airlines Cockpit Seats**
+  - Genuine aircraft components providing authentic pilot positioning and comfort
+  - Complete with original adjustment mechanisms and armrests
+  - The foundation for proper ergonomics and immersion
+
+### Primary Flight Controls & Displays
+
+**Mode Control Panel (MCP)**
+- **CPFlight MCP PRO**
+  - Professional-grade autopilot control interface
+  - Fully integrated with ProSim737
+  - Realistic backlit displays and tactile controls
+
+**Electronic Flight Instrument System**
+- **CPFlight EFIS PRO**
+  - Dual EFIS control panels for Captain and First Officer positions
+  - Direct control over navigation display modes and settings
+  - Professional-quality construction with authentic feel
+
+**Throttle Quadrant**
+- **Cockpit For You V3 Silver - Fully Motorized**
+  - Complete thrust lever control with realistic resistance
+  - Auto-throttle with motorized feedback
+  - Includes speed brake, flap lever, and trim controls
+  - Premium silver finish for authentic appearance
+
+**Flight Management Computer**
+- **OpenCockpits MCDU**
+  - Full-featured flight management computer displays
+  - Direct integration with ProSim737 FMS
+  - Dual units for Captain and First Officer positions
+
+### Communication & Audio Panel
+
+**Radio/Nav/Audio Stack**
+- Custom-built pedestal-mounted radio stack
+- Laser-engraved professional panel for authentic appearance
+- Arduino Mega controller running MobiFlight firmware
+- Direct integration with ProSim737 systems
+- Includes:
+  - VHF communication radios
+  - Navigation radios
+  - Audio control panels
+  - Transponder
+
+### Interface & Control Systems
+
+**Hardware Interface**
+- **PoKeys Control Cards**
+  - Professional-grade USB I/O interface cards
+  - Handle all cockpit switches, buttons, and indicators
+  - Low-latency communication with ProSim737
+  - Expandable architecture for future additions
+
+## Build Updates & Timeline
+
+**September 2017** - Project Initiated
+- Planning and design phase began
+- Research into hardware options and simulator platforms
+- Initial component sourcing 
 
 [Link](url) and ![Image](src)
 ```
